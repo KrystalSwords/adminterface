@@ -1,0 +1,42 @@
+.side {
+  /*border-right: 2px solid #212721;*/
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 70px;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: px;
+  background-color: white;
+  box-shadow: 1px 1px 4px gray;
+  /*border-top: 2px solid #212721;*/
+}
+
+.side a {
+  color: #881c1c;
+}
+
+.head {
+  /*border-bottom: 2px solid #212721;*/
+  height: 50px;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #881c1c;
+  font-family: "Minion Pro";
+  color: white;
+}
+
+.main {
+  margin-top: 100px;
+  margin-left: 16%;
+  padding: 0px 10px;
+  display: flex;
+  flex-flow: row-wrap;
+  z-index: 2;
+}

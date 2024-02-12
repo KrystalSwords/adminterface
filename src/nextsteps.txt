@@ -1,0 +1,17 @@
+- add item to link buttons
+- guides/resources page
+
+- expand todo item
+  - due date array conversion for repeated occurrence
+  - reminders 
+  - quick add and improved popout add
+
+- UI
+  - drag and drop
+  - color scheme
+  - logo thing ?
+
+- separate clickable parts of todo item
+  - checkbox completes/uncompletes
+  - expand/collapse text
+  - change due date (how to handle array ?)

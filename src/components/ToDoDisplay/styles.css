@@ -1,0 +1,14 @@
+.newitemtext {
+  padding: 12px 20px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.itemlist {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  width: 400px;
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px grey;
+}

@@ -1,0 +1,10 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.tododisplaycolumns {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
