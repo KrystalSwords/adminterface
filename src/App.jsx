@@ -9,10 +9,10 @@ import NoMatch from "./components/NoMatch";
 
 export default function App() {
   const [todolist, updateTodolist] = useState([
-    { done: false, what: "eat beef", id: 0, duedate: new Date("2024-10-10") },
+    { done: false, what: "Email Dave", id: 0, duedate: new Date("2024-10-10") },
     {
       done: true,
-      what: "take every nap",
+      what: "Meeting with Sasha",
       id: 1,
       duedate: new Date("2024-10-10"),
     },
@@ -117,11 +117,3 @@ export default function App() {
     </div>
   );
 }
-
-/* todolist.map((item) => {
-  if (item.done) {
-    return item;
-  } else {
-    return;
-  }
-}) */

@@ -15,3 +15,8 @@
   - checkbox completes/uncompletes
   - expand/collapse text
   - change due date (how to handle array ?)
+
+- backend support
+  - load different listoflinks
+  - save/load todo lists
+  - todo list name ?

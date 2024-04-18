@@ -1,6 +1,6 @@
 import ButtonCard from "../ButtonCard/";
 import "./styles.css";
-import { listoflinks } from "../../listoflinks.js";
+import { listoflinks } from "../../listoflinksclean.js";
 
 //COMPONENT that takes in the list of links to display and displays the array of buttons
 export default function ButtonDisplay() {
