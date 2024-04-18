@@ -2,7 +2,7 @@ import AddItemToList from "../AddItemToList";
 import ToDoDisplay from "../ToDoDisplay";
 import ListSort from "../ListSort";
 
-//COMPONENT that contains the body of the page
+//COMPONENT that contains the entire todo list body
 export default function TodoBody({
   handleItemSubmit,
   handleItemSort,
@@ -17,6 +17,7 @@ export default function TodoBody({
         <ListSort handleSortSubmit={handleItemSort} />
       </span>
       <div className="tododisplaycolumns" key={tododisplayrefresh}>
+        {/*split the todo list into Done items and Not Done items*/}
         <ToDoDisplay
           todolist={todolist.filter((item) => {
             if (item.done === false) {

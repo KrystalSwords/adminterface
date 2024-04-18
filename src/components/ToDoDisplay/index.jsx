@@ -1,7 +1,7 @@
 import ToDoItem from "../ToDoItem";
 import "./styles.css";
 
-//COMPONENT for displaying the full to do list
+//COMPONENT for displaying the full todo list
 export default function ToDoDisplay({ todolist, handleCheck }) {
   return (
     <ul className="itemlist">

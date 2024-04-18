@@ -1,6 +1,6 @@
 import "./styles.css";
 
-//COMPONENT that is the header for this thing
+//COMPONENT that is the header for this website
 export default function Header() {
   return (
     <div className="header">
